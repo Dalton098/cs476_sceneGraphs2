@@ -27,40 +27,40 @@
                         "shapes":[
                             {
                             "type":"box",
-                            "length": 0.75,
-                            "width": 0.2,
-                            "height": 0.1,
+                            "length": 2,
+                            "width": 0.4,
+                            "height": 0.2,
                             "center":[0, 0, 0],
                             "material": "green"
                         }
                     ] 
                 },
                 {
-                    "transform":[0.2, 0, 0, 0,
+                    "transform":[1, 0, 0, 0,
                                 0, 1, 0, 0,
-                                0, 0, 0.4, 0,
+                                0, 0, 2, 1,
                                 0, 0, 0, 1],
                     "shapes":[
                         {
                             "type":"cylinder",
-                            "radius":0.5,
+                            "radius":0.2,
                             "height":2,
-                            "center":[0, 0, 1],
+                            "center":[0, 0, 0],
                             "material": "red"
                             }
                     ]
                 },
                 {
-                    "transform":[0.2, 0, 0, 0,
+                    "transform":[1, 0, 0, 0,
                                 0, 1, 0, 0,
-                                0, 0, 0.4, 0,
+                                0, 0, 2, -1,
                                 0, 0, 0, 1],
                     "shapes":[
                         {
                             "type":"cylinder",
-                            "radius":0.5,
+                            "radius":0.2,
                             "height":2,
-                            "center":[0, 0, -1],
+                            "center":[0, 0, 0],
                             "material": "red"
                             }
                     ]
